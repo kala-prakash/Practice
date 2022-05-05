@@ -35,32 +35,10 @@ public class Demo<T> {
         Demo<String> dem2 = new Demo<String>("Kabaddi");
 
         System.out.println(dem1.getobj());
-        dem1.show();
+        dem1.show();        
         System.out.println(dem2.getobj());
         dem2.show();
     }
 }
 
-/*
-class Test {
-    // A Generic method example
-    static <T> void genericDisplay(T obj)
-    {
-        System.out.println(obj.getClass().getName()
-                           + " = " + obj);
-    }
-  
-    // Driver method
-    public static void main(String[] args)
-    {
-        // Calling generic method with Integer argument
-        genericDisplay(11);
-  
-        // Calling generic method with String argument
-        genericDisplay("GeeksForGeeks");
-  
-        // Calling generic method with double argument
-        genericDisplay(1.0);
-    }
-}
-*/
+
